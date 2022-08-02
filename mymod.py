@@ -1,4 +1,4 @@
-print(f'Hello from {__name__}!')
+# print(f'Hello from {__name__}!')
 
 x = 100
 
@@ -11,3 +11,8 @@ def hello(name):
 # this line means: Only execute the below block if we did *NOT* load the file via import
 if __name__ == '__main__':
     print(f'Goodbye from {__name__}!')
+    
+    s = input('Enter your name: ').strip()
+    
+    print(hello(s))
+    
