@@ -19,3 +19,17 @@ b.add_scoops(s4, s5)
 b.add_scoops(s6)
 print(len(b.scoops))  # 3
 print(b.flavors())   # ['chocolate', 'vanilla', 'coffee']
+
+
+print(s1)
+print(s2)
+print(s3)
+
+print('****   Below here is "print b"  *****')
+print(b)
+
+print(len(b))
+
+b2 = Bowl()
+b2.add_scoops(s1, s3, s2)
+print(b == b2)
